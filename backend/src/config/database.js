@@ -10,7 +10,7 @@ class Database {
     try {
       const mongoUri = process.env.NODE_ENV === 'test' 
         ? process.env.MONGODB_TEST_URI 
-        : process.env.MONGO_URI;
+        : process.env.MONGODB_URI;
 
       if (!mongoUri) {
         throw new Error('MongoDB URI is not defined in environment variables');

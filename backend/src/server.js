@@ -21,7 +21,7 @@ import messageRoutes from './routes/messages.js';
 import generateComponentRoutes from './routes/generateComponent.js';
 
 // Load environment variables
-dotenv.config({ path: './backend/.env' });
+dotenv.config();
 
 console.log('Loaded Environment Variables:', process.env);
 

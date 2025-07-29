@@ -120,3 +120,4 @@ test-results/
 # Temporary files
 tmp/
 temp/
+.vercel
